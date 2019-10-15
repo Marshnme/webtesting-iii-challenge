@@ -1,6 +1,7 @@
 import React from "react";
 import { render,fireEvent } from '@testing-library/react';
 import Controls from "../controls/Controls"
+import '@testing-library/jest-dom/extend-expect' 
 
 // Test away!
 
